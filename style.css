@@ -1,0 +1,42 @@
+body{
+  margin: 0px;
+  background-color: burlywood;
+}
+
+img{
+  width: 490px;
+  height: 280px;
+  padding: 10px;
+  align-content: center;
+  transition: all 0.7s;
+}
+
+h1{
+  text-align: center;
+  color: black;
+  font-weight: 50;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img:hover{
+  transform: scale(1.1);
+}
+
+
+.foot{
+  background-color: #efdfbb;
+  color: black;
+  border-color: black;
+  align-content: center;
+  margin: 10px;
+}
+.foot:hover{
+  background-color: #e3ab57;
+  color: white;
+  border-color: #f3e5ab;
+}
